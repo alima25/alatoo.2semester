@@ -1,0 +1,12 @@
+laptop = {"brand": "dell", "model": "alienware", "year": 2010}
+
+# 1. 
+print("Brand:", laptop["brand"])
+
+# 2. 
+laptop["home"] = True
+
+# 3. 
+laptop["year"] = 2019
+
+print("Updated laptop dictionary:", laptop)
