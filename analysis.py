@@ -39,5 +39,8 @@ sns.heatmap(correlation_matrix, annot=True, cmap='coolwarm', fmt='.2f')
 plt.title("Correlation Matrix Heatmap")
 plt.show()
 
-# 6. Correlation vs Causality
-print("\nNote: Correlation between Height and Weight is 0.99, but that doesn't imply that Height causes Weight. It might be due to a shared factor like age or genetics.")
+#6. Correlation vs. Causality
+
+#Correlation: When two variables change together.
+
+#Causality: One variable directly causes the change in another.
